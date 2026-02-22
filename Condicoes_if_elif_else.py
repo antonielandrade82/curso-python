@@ -25,13 +25,11 @@
 #     print ('Você foi reprovado')
 
 
-# nota_aluno= float(input('Qual foi a sua nota no exame?'))
-# if nota_aluno >= 7:
-#     print ('Você foi aprovado')
-# elif nota_aluno >=5:
-#     print ('Você está de recuperação')
-# else:
-#     print ('Você foi reprovado')
+nota_aluno= float(input('Qual foi a sua nota no exame?'))
+if nota_aluno >= 7:
+    print ('Você foi aprovado')
+elif nota_aluno >=5:
+    print ('Você está de recuperação')
+else:
+    print ('Você foi reprovado')
 
-usuario = input('Digite o seu usuário: ')
-senha = input('')
