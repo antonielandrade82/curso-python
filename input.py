@@ -1,3 +1,8 @@
 nome = input ('Digite o seu nome: ')
-idade = input ( 'Digite a sua idade: ')
-print('Olá', nome + ', você tem ', idade, 'anos de idade')
+idade = int(input ( 'Digite a sua idade: '))
+
+
+print(f'Olá {nome}, daqui 5 anos você terá {idade +5} anos de idade ')
+
+print( type(nome))
+print( type(idade))
